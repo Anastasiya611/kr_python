@@ -1,7 +1,7 @@
 import os
 from data_create import name_data, id_data, info_data, time_data
 
-file_name = "data.txt"
+file_name = "data.csv"
 def print_data():
     if os.path.exists(file_name):
         print("Ваши заметки:")
